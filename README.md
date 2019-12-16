@@ -49,3 +49,6 @@ The main data science aspect of this project including:
 - Data Analysis
 - Machine Learning and Prediction
 
+# SECTION 2
+
+In this section there will be a summary of the data that will be used for the completion of the project.
