@@ -51,4 +51,46 @@ The main data science aspect of this project including:
 
 # SECTION 2
 
-In this section there will be a summary of the data that will be used for the completion of the project.
+##In this section there will be a summary of the data that will be used for the completion of the project.
+
+The principal source of data are the official statistics provided by Basel-Land website:
+https://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung/bestand-struktur.html
+From this website will be possible to extract and scrumble:
+
+- Name of the various districts
+- Population data (Local and immigrants)
+- Social Welfare quota
+- Net worth distribution
+- Criminality statistics
+- Commericial activities
+
+It has be decided to use GeoPy: https://geopy.readthedocs.io/ for the Latitude and Longitude extrapolation and correlation with the various neighbourhoods.
+
+name	location	Latitude and Longitude
+0	Basel, Altstadt Grossbasel	(Altstadt Grossbasel, Basel, Basel-Stadt, 4001...	(47.5564274, 7.5882594, 0.0)
+1	Basel, Vorstädte	(Vorstädte, Basel, Basel-Stadt, Schweiz/Suisse...	(47.5526462, 7.5888037, 0.0)
+2	Basel, Am Ring	(Am Ring, Basel, Basel-Stadt, 4003, Schweiz/Su...	(47.5587744, 7.5774773, 0.0)
+3	Basel, Breite	(Breite, Basel, Basel-Stadt, Schweiz/Suisse/Sv...	(47.5518091, 7.6178526, 0.0)
+4	Basel, St. Alban	(St. Alban, Basel, Basel-Stadt, 4052, Schweiz/...	(47.5495654, 7.6050522, 0.0)
+5	Basel, Gundeldingen	(Gundeldingen, Basel, Basel-Stadt, Schweiz/Sui...	(47.5432192, 7.5914854, 0.0)
+6	Basel, Bruderholz	(Bruderholz, Basel, Basel-Stadt, 4059, Schweiz...	(47.5307985, 7.5916242, 0.0)
+7	Basel, Bachletten	(Bachletten, Basel, Basel-Stadt, 4054, Schweiz...	(47.5485663, 7.571726, 0.0)
+8	Basel, Gotthelf	(Gotthelf, Basel, Basel-Stadt, Schweiz/Suisse/...	(47.5558192, 7.5709523, 0.0)
+9	Basel, Iselin	(Iselin, Basel, Basel-Stadt, 4055, Schweiz/Sui...	(47.5621963, 7.5659985, 0.0)
+10	Basel, St. Johann	(St. Johann, Basel, Basel-Stadt, Schweiz/Suiss...	(47.5690856, 7.5759341, 0.0)
+11	Basel, Altstadt Kleinbasel	(Altstadt Kleinbasel, Basel, Basel-Stadt, Schw...	(47.5606996, 7.5933825, 0.0)
+12	Basel, Clara	(Clara, Basel, Basel-Stadt, Schweiz/Suisse/Svi...	(47.5640853, 7.5966293, 0.0)
+13	Basel, Wettstein	(Wettstein, Basel, Basel-Stadt, Schweiz/Suisse...	(47.560508, 7.6047949, 0.0)
+14	Basel, Hirzbrunnen	(Hirzbrunnen, Basel, Basel-Stadt, 5068, Schwei...	(47.5688726, 7.6154703, 0.0)
+15	Basel, Rosental	(Rosental, Basel, Basel-Stadt, Schweiz/Suisse/...	(47.5677078, 7.6014909, 0.0)
+16	Basel,	(Basel, Basel-Stadt, Switzerland, (47.5581077,...	(47.5581077, 7.5878261, 0.0)
+17	Basel Matthäus	(Matthäus, Basel, Basel-Stadt, Schweiz/Suisse/...	(47.5674388, 7.5915404, 0.0)
+18	Basel, Klybeck	(Klybeck, Basel, Basel-Stadt, 4057, Schweiz/Su...	(47.5767978, 7.5901493, 0.0)
+19	Basel, Kleinhüningen	(Kleinhüningen, Basel, Basel-Stadt, 4019, Schw...	(47.583376, 7.5975738, 0.0)
+20	Basel, Riehen	(Riehen, Basel-Stadt, 4125, Schweiz/Suisse/Svi...	(47.5816927, 7.6479737, 0.0)
+21	Basel, Bettingen	(Bettingen, Basel-Stadt, 4126, Schweiz/Suisse/...	(47.5714149, 7.6639831, 0.0
+
+These data will provide the answer to the following questions:
+What is the ranking of the three best neighbourhood where to open a pizzeria?
+
+
