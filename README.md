@@ -68,6 +68,7 @@ It has be decided to use GeoPy: https://geopy.readthedocs.io/ for the Latitude a
 
 
 These data will provide the answer to the following questions:
+
 What is the ranking of the three best neighbourhood where to open a pizzeria?
 
 
