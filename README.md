@@ -67,7 +67,7 @@ From this website will be possible to extract and scrumble:
 It has be decided to use GeoPy: https://geopy.readthedocs.io/ for the Latitude and Longitude extrapolation and correlation with the various neighbourhoods.
 
 
-These data will provide the answer to the following questions:
+These data will provide the answer to the following question:
 
 What is the ranking of the three best neighbourhood where to open a pizzeria?
 
