@@ -51,7 +51,7 @@ The main data science aspect of this project including:
 
 # SECTION 2
 
-##In this section there will be a summary of the data that will be used for the completion of the project.
+## In this section there will be a summary of the data that will be used for the completion of the project.
 
 The principal source of data are the official statistics provided by Basel-Land website:
 https://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung/bestand-struktur.html
@@ -71,4 +71,4 @@ These data will provide the answer to the following question:
 
 What is the ranking of the three best neighbourhood where to open a pizzeria?
 
-##Please check Week1 file for data samples.
+## Please check Week1 file for data samples.
