@@ -1,15 +1,12 @@
 # Peer-graded-Assignment-Capstone-Project---The-Battle-of-Neighborhoods
 Peer-graded Assignment: Capstone Project - The Battle of Neighborhoods
 
-# Week 1 Assignement
+# Week 2 Assignement
 
-Clearly define a problem or an idea of your choice, where you would need to leverage the Foursquare location data to solve or execute. Remember that data science problems always target an audience and are meant to help a group of stakeholders solve a problem, so make sure that you explicitly describe your audience and why they would care about your problem.
-
+In this week, you will continue working on your capstone project.
 ---
 
-Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
-
-# SECTION 1
+#INTRODUCTION
 ## Scenario
 
 As italian abroad, a potential customer would like to open a traditional italian pizzeria in Switzerland, more specifically in Basel.
@@ -49,7 +46,7 @@ The main data science aspect of this project including:
 - Data Analysis
 - Machine Learning and Prediction
 
-# SECTION 2
+# DATA
 
 ## In this section there will be a summary of the data that will be used for the completion of the project.
 
@@ -57,18 +54,26 @@ The principal source of data are the official statistics provided by Basel-Land 
 https://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung/bestand-struktur.html
 From this website will be possible to extract and scrumble:
 
-- Name of the various districts
-- Population data (Local and immigrants)
+- Name and area of the various districts:
+![alt text](C:\ibm\Images\Quarters.png)
+- Population data (Local and immigrants):
+
 - Social Welfare quota
+
 - Net worth distribution
-- Criminality statistics
-- Commericial activities
+
+- Pizzerias in the area 
 
 It has be decided to use GeoPy: https://geopy.readthedocs.io/ for the Latitude and Longitude extrapolation and correlation with the various neighbourhoods.
 
+We will also scramble data from Tripadvisor, in order to understand actual Pizzerias distribution and average ranking and price evaluation.
+padvisor.com/Restaurants-g188049-Basel.html
 
 These data will provide the answer to the following question:
 
-What is the ranking of the three best neighbourhood where to open a pizzeria?
+There is a room to open a new Pizzeria in Basel and, if so, where to open it?
 
-## Please check Week1 file for data samples.
+# METHODOLOGY
+
+## In this section we discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+
