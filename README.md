@@ -55,7 +55,7 @@ https://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung/bestand-struktur.html
 From this website will be possible to extract and scrumble:
 
 - Name and area of the various districts:
-![alt text] (C:\ibm\Images\Quarters.pngjpg?raw=true "Title")
+![alt text] (C:\ibm\Images\Quarters.jpg?raw=true "Title")
 - Population data (Local and immigrants):
 
 - Social Welfare quota
