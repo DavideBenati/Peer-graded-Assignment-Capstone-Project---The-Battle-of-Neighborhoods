@@ -6,7 +6,7 @@ Peer-graded Assignment: Capstone Project - The Battle of Neighborhoods
 In this week, you will continue working on your capstone project.
 ---
 
-#INTRODUCTION
+# INTRODUCTION
 ## Scenario
 
 As italian abroad, a potential customer would like to open a traditional italian pizzeria in Switzerland, more specifically in Basel.
@@ -55,7 +55,7 @@ https://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung/bestand-struktur.html
 From this website will be possible to extract and scrumble:
 
 - Name and area of the various districts:
-![alt text](C:\ibm\Images\Quarters.png)
+![alt text] (C:\ibm\Images\Quarters.pngjpg?raw=true "Title")
 - Population data (Local and immigrants):
 
 - Social Welfare quota
